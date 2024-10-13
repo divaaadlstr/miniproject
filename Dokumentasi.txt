@@ -1,0 +1,30 @@
+*Langkah-langkah Installasi*
+1. Instal Pandas: Pastikan pandas sudah terinstal. Jika belum, buka terminal di VS Code dan jalankan:
+   pip install pandas openpyxl
+2. Membuat Repository di Github (main/master)
+ - Buat repository baru di GitHub.
+ - Buka terminal di folder proyek VS Code, lalu inisialisasi git
+   git init
+ - Hubungkan ke repository GitHub
+   git remote add origin <url-repo-github>
+ - Lakukan commit dan push
+   git init
+   git remote add origin https://github.com/alfirassmanar/Python.git
+   echo "credentials.json" >> .gitignore
+   git add .
+   git commit -m "Initial commit without credentials.json"
+   git push -u origin main
+
+3. Instal Library gspread dan oauth2client
+   pip install gspread oauth2client pandas openpyxl
+4. Membuat Google Cloud Console (Free)
+   Masuk ke Google Cloud Console
+   Klik Button Free/Mulai Gratis
+   
+nb : Pastikan sudah menginstal Python dan VS Code di komputer
+untuk update versi python: python.exe -m pip install --upgrade pip --user
+Install untuk menghubungkan ke google spreadsheet : ip install gspread oauth2client
+menjalankan program : 
+1. python data_entry_terminal.py
+2. python data_entry_gui.py
+
